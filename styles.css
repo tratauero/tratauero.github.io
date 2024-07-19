@@ -1,0 +1,111 @@
+
+.photo-item img {
+    width: 300px; 
+    height: 200px; 
+    border-radius: 3cm; 
+}
+
+#company-info {
+    max-width: 100%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#company-info p {
+    word-wrap: break-word; 
+}
+
+.photo-gallery {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; 
+}
+
+.photo-item {
+    flex-basis: 23%; 
+    margin-bottom: 20px; 
+    text-align: center;
+}
+
+.photo-item img {
+    width: 100%; 
+    height: auto; 
+}
+
+.photo-item p {
+    margin-top: 10px; 
+    font-size: 14px; 
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    background-color: #333;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1em 1.5em;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #111;
+}
+
+main {
+    padding: 2em;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+button {
+    background-color: #007BFF;
+    border: none;
+    color: white;
+    padding: 0.5em 1em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    margin: 1em 0;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.logo-inline {
+    width: 20px; 
+    height: 20px; 
+    border-radius: 50%; 
+    vertical-align: middle; 
+    margin-right: 10px; 
+}
+

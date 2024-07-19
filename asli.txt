@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WEBSITE TAIRIPA PUTRA MANDIRI</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        body {
+            background-image: url('dark-background.jpg'); /* Ganti dengan URL gambar background gelap */
+            background-size: cover;
+            background-position: center;
+            color: white; /* Warna teks */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            background-color: rgba(0, 0, 0, 0.7); /* Warna background navbar (gelap transparan) */
+            padding: 10px;
+            display: flex;
+            justify-content: space-between; /* Posisikan menu di ujung kanan */
+            align-items: center; /* Center menu vertikal */
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            display: flex;
+            gap: 20px; /* Jarak antara menu */
+        }
+        nav ul li {
+            display: inline;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        header {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            justify-content: space-between; /* Posisikan logo dan tulisan di header sesuai permintaan */
+        }
+        .logo {
+            height: 80px; /* Perbesar ukuran logo */
+            width: auto; /* Lebar logo disesuaikan */
+            border-radius: 50%; /* Bentuk bulat */
+            margin-right: 10px;
+        }
+        h1 {
+            margin: 0;
+            font-size: 24px; /* Ukuran font lebih besar */
+            font-weight: bold; /* Huruf lebih tebal */
+        }
+        .contractor-info {
+            text-align: right; /* Teks tulisan "contractor" sebelah kanan */
+            font-weight: bold; /* Huruf lebih tebal */
+        }
+        .blue-btn {
+            background-color: #007BFF;
+            border: none;
+            color: white;
+            padding: 0.5em 1em;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 1em;
+            margin: 1em 0;
+            cursor: pointer;
+        }
+        .blue-btn:hover {
+            background-color: #0056b3;
+        }
+        .hidden {
+            display: none;
+        }
+        .vision-mission-container {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+        .vision-mission-box {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            width: 45%;
+            text-align: center;
+            border-radius: 10px;
+        }
+        .photo-gallery {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+        .photo-item {
+            text-align: center;
+        }
+        .photo-item img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="company-logo.png" alt="Company Logo" class="logo">
+        <h1>TAIRIPA PUTRA MANDIRI</h1>
+        <div class="contractor-info">
+            <img src="contractor-logo.png" alt="Contractor Logo" class="logo">
+            <p>FREEPORT CONTRACTOR</p>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#company-info">TENTANG KAMI</a></li>
+            <li><a href="#owner-info">JASA DAN LAYANAN</a></li>
+            <li><a href="#contact-us">HUBUNGI KAMI</a></li>
+            <li><a href="#about-owner">SEJARAH PERUSAHAAN</a></li>
+        </ul>
+        <div>
+            <button class="blue-btn" onclick="location.href='login.html';">Masuk</button>
+            <button class="blue-btn" onclick="location.href='register.html';">Buat Akun</button>
+        </div>
+    </nav>
+    <main>
+        <center>
+        <section id="company-info">
+		
+		            <div class="vision-mission-container">
+                <div class="vision-mission-box">
+                    <h3>Visi Perusahaan</h3>
+                    <p>Menjadi perusahaan terkemuka dalam bidang contractor dan enviromental support di Indonesia.</p>
+                </div>
+                <div class="vision-mission-box">
+                    <h3>Misi Perusahaan</h3>
+                    <p>Menyediakan layanan berkualitas tinggi dengan mengutamakan kepuasan pelanggan dan pelestarian lingkungan.</p>
+                </div>
+            </div>
+            <h2>Informasi Perusahaan</h2>
+            <p>Perusahaan kami didirikan pada tahun 2010 dan telah bekerjasama dengan PT. FREEPORT INDONESIA sebagai suport contractor</p>
+            <p>Dan perusahaan yang mempunyai dimiliki oleh seorang putra daerah asli asal suku kamoro ini, mempunyai</p>
+            <p>4 cabang perusahaan yaitu ada yang bergerak dalam bidang sign protection, pencucian bis, enviromental (pengembangan dan pemeliharaan lingkungan),</p>
+            <p>dan ada juga yang berada di High Land (tembagapura) dalam pekerjaan penyedotan pipa septic tank.</p>
+            <div class="photo-gallery">
+                <div class="photo-item">
+                    <img src="foto1.jpg" alt="Foto 1">
+                    <p><b>Sign Protection</b></p>
+                    <p><i>(Area Kuala Kencana)</i></p>
+                </div>
+                <div class="photo-item">
+                    <img src="foto2.jpg" alt="Foto 2">
+                    <p><b>Pencucian Bis(KPI)</b></p>
+                    <p><i>(Terminal Gorong-gorong)</i></p>
+                </div>
+                <div class="photo-item">
+                    <img src="foto3.jpg" alt="Foto 3">
+                    <p><b>Enviromental Support</b></p>
+                    <p><i>(Porsite Enviromental)</i></p>
+                </div>
+                <div class="photo-item">
+                    <img src="foto4.jpg" alt="Foto 4">
+                    <p><b>Penyedotan Pipa  Septic ank</b></p>
+                    <p><i>(Tembagapura)</i></p>
+                </div>
+            </div>
+			<p>Perusahaan kami didirikan pada tahun 2010 dan telah bekerjasama dengan PT. FREEPORT INDONESIA sebagai suport contractor</p>
+            <p>Dan perusahaan yang mempunyai dimiliki oleh seorang putra daerah asli asal suku kamoro ini, mempunyai</p>
+            <p>4 cabang perusahaan yaitu ada yang bergerak dalam bidang sign protection, pencucian bis, enviromental (pengembangan dan pemeliharaan lingkungan),</p>
+            <p>dan ada juga yang berada di High Land (tembagapura) dalam pekerjaan penyedotan pipa.</p>
+            <div class="photo-gallery">
+
+        </section>
+        <section id="owner-info" class="hidden">
+            <h2>Jasa dan Layanan </h2>
+            <p>Perusahaan kami dimiliki oleh John Doe, seorang entrepreneur sukses dengan pengalaman lebih dari 20 tahun di industri ini.</p>
+        </section>
+        <section id="contact-us" class="hidden">
+            <h2>Hubungi Kami</h2>
+            <p>Silakan hubungi kami untuk informasi lebih lanjut atau pertanyaan terkait layanan dan produk kami.</p>
+            <p>GMAIL: Admintairipa_facilities@tairipaputra.com</p>
+            <p>NO WHATSAPP: 081247178029</p>
+        </section>
+        <section id="about-owner" class="hidden">
+            <h2>Tentang Pemilik</h2>
+            <p>Pemilik perusahaan kami, John Doe, adalah seorang pemimpin yang berdedikasi dan memiliki visi yang kuat untuk kemajuan perusahaan.</p>
+        </section>
+        </center>
+    </main>
+    <footer>
+        <p>&copy; 2024 Tairipa Putra Mandiri. All rights reserved.</p>
+    </footer>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const companyInfoBtn = document.querySelector('a[href="#company-info"]');
+            const ownerInfoBtn = document.querySelector('a[href="#owner-info"]');
+            const contactUsBtn = document.querySelector('a[href="#contact-us"]');
+            const aboutOwnerBtn = document.querySelector('a[href="#about-owner"]');
+            const sections = document.querySelectorAll('section');
+
+            companyInfoBtn.addEventListener('click', function(event) {
+                event.preventDefault();
+                showSection('company-info');
+            });
+
+            ownerInfoBtn.addEventListener('click', function(event) {
+                event.preventDefault();
+                showSection('owner-info');
+            });
+
+            contactUsBtn.addEventListener('click', function(event) {
+                event.preventDefault();
+                showSection('contact-us');
+            });
+
+            aboutOwnerBtn.addEventListener('click', function(event) {
+                event.preventDefault();
+                showSection('about-owner');
+            });
+
+            function showSection(sectionId) {
+                sections.forEach(section => {
+                    if (section.id === sectionId) {
+                        section.classList.remove('hidden');
+                    } else {
+                        section.classList.add('hidden');
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+</html>

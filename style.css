@@ -1,0 +1,68 @@
+body {
+    font-family: sans-serif;
+    background-image: url("background-image.jpg"); /* Ganti dengan path gambar yang sesuai */
+    background-size: cover;
+    background-position: center;
+}
+
+
+.container {
+    width: 350px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header img {
+    width: 100px;
+    height: auto;
+}
+
+.header h1 {
+    margin-top: 10px;
+    font-size: 24px;
+    color: #333;
+}
+
+.form {
+    padding: 20px;
+}
+
+.form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.form button {
+    width: 100%;
+    padding: 12px 20px;
+    margin-top: 20px;
+    background-color: #3897f0;
+    color: #fff;
+    border: none;
+    border-radius: 25px; /* Mengubah sudut tombol menjadi lebih tumpul */
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1); /* Efek bayangan untuk tampilan yang lebih menarik */
+    background-image: linear-gradient(to right, #ffcc29, #3897f0); /* Gradasi warna biru dan kuning */
+}
+
+/* Efek hover saat kursor diarahkan ke tombol */
+.form button:hover {
+    background-image: linear-gradient(to right, #ffd000, #007bff);
+}
+

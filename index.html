@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WEBSITE TAIRIPA PUTRA MANDIRI</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        body {
+            background-color: white; 
+            color: black; 
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            background-color: gray; 
+            padding: 10px;
+            display: flex;
+            justify-content: space-between; 
+            align-items: center;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            display: flex;
+            gap: 20px; 
+        }
+        nav ul li {
+            display: inline;
+        }
+        nav ul li a {
+            color: white; 
+            text-decoration: none;
+            font-weight: bold;
+        }
+        header {
+            background: linear-gradient(to bottom, gray, #F67225);
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            justify-content: space-between; 
+        }
+        .logo {
+            height: 80px; /* Perbesar ukuran logo */
+            width: auto; /* Lebar logo disesuaikan */
+            border-radius: 50%; /* Bentuk bulat */
+            margin-right: 10px;
+        }
+        h1 {
+            margin: 0;
+            font-size: 24px; 
+            font-weight: bold; 
+            color: white; 
+        }
+        .contractor-info {
+            text-align: right; 
+            font-weight: bold; 
+        }
+        .contractor-info p {
+            color: white; 
+        }
+        .hidden {
+            display: none;
+        }
+        .vision-mission-container {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+        .vision-mission-box {
+            background-color: rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 45%;
+            text-align: center;
+            border-radius: 10px;
+        }
+        .photo-gallery {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+        .photo-item {
+            text-align: center;
+        }
+        .photo-item img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        footer {
+            background-color: 343D76; 
+            color: white; 
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .blue-btn {
+            border-radius: 10px; 
+        }
+        .justify-text {
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="company-logo.png" alt="Company Logo" class="logo">
+        <h1>TAIRIPA PUTRA MANDIRI</h1>
+        <div class="contractor-info">
+            <img src="contractor-logo.png" alt="Contractor Logo" class="logo">
+            <p>FREEPORT CONTRACTOR</p>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#company-info">
+                <img src="logotentangkami.png" alt="Logotentangkami" style="width: 50px; height: 50px; border-radius: 50%; vertical-align: middle; margin-right: 10px;">
+                <span style="vertical-align: middle;">TENTANG KAMI</span>
+            </a></li>
+            <li><a href="#owner-info">
+                <img src="logojasakami.png" alt="Logojasakami" style="width: 50px; height: 50px; border-radius: 50%; vertical-align: middle; margin-right: 10px;">
+                <span style="vertical-align: middle;">PRODUK SIGN KAMI</span>
+            </a></li>
+            <li><a href="#contact-us">
+                <img src="logohubungikami.png" alt="Logohubungikami" style="width: 50px; height: 50px; border-radius: 50%; vertical-align: middle; margin-right: 10px;">
+                <span style="vertical-align: middle;">HUBUNGI KAMI</span>
+            </a></li>
+            <li><a href="#about-owner">
+                <img src="logosejarahkami.png" alt="Logosejarahkami" style="width: 50px; height: 50px; border-radius: 50%; vertical-align: middle; margin-right: 10px;">
+                <span style="vertical-align: middle;">SEJARAH PERUSAHAAN</span>
+            </a></li>
+        </ul>
+    </nav>
+    <main>
+        <center>
+        <section id="company-info">
+            <hr><h2>~ INFORMASI PERUSAHAAN ~ </h2><hr>
+            <p class="justify-text">Perusahaan yang telah berdiri dan dibimbing langsung oleh tim dari PT.FREEPORT INDONESIA ini telah berdiri sejak tahun 2010.
+            Dan telah banyak projek yang telah dikerjakan bersama dengan PT.FREEPORT INDONESIA. Dalam hal ini perusahaan menyediakan atau menyuplai tenaga kerja 
+            untuk PT.FREEPORT INDONESIA, yakni dalam bidang jasa dan konstruksi. Program ini juga dapat diharapkan membantu dan membuka lowongan kerja bagi masyarakat
+            asli Papua ataupun masyarakat non Papua.</p>
+            
+            <div class="vision-mission-container">
+                <div class="vision-mission-box">
+                    <h3><b>Visi</b></h3>
+                    <p class="justify-text">Menjadi perusahaan contractor yang terkemuka dalam bidang yang dikerjakan dan mengutamakan putra asli daerah papua </p>
+                </div>
+                <div class="vision-mission-box">
+                    <h3><b>Misi</b></h3>
+                    <p class="justify-text">Menyediakan layanan berkualitas tinggi dalam menyuplai tenaga kerja dan produksi.</p>
+                </div>
+            </div>
+            <h3><b>Proyek Kami</b></h3>
+            <div class="photo-gallery">
+                <div class="photo-item">
+                    <img src="foto1.jpg" alt="Foto 1">
+                    <p><b>Sign Protection</b></p>
+                    <p><i>(Area Kuala Kencana)</i></p>
+                    <p class="justify-text">Pekerjaan ini dilakukan mulai dari Pembuatan sign hingga pemasangan. Ada juga order yang nantinya akan dipesan dan juga nantinya akan dikirim.</p>
+                </div>
+                <div class="photo-item">
+                    <img src="foto2.jpg" alt="Foto 2">
+                    <p><b>Pencucian Bis (KPI)</b></p>
+                    <p><i>(Terminal Gorong-gorong)</i></p>
+					<p class="justify-text">Pekerjaan ini dikerjakan mulai dari pencucian hingga pembersihan bagian dalam bis setiap bus turun dan menjemput karyawaan.</p>
+                </div>
+                <div class="photo-item">
+                    <img src="foto3.jpg" alt="Foto 3">
+                    <p><b>Environmental Support</b></p>
+                    <p><i>(Porsite Environmental)</i></p>
+					<p class="justify-text">Crew yang bekerja di proyek ini akan mensuport pekerjaan di environmental dengan menjadi tenaga support yang akan membantu pekerjaan enviromental</p>
+                </div>
+                <div class="photo-item">
+                    <img src="foto4.jpg" alt="Foto 4">
+                    <p><b>Penyedotan Pipa Septic Tank</b></p>
+                    <p><i>(Tembagapura)</i></p>
+					<p class="justify-text">Pekerjaan ini dikerjakan di area tembagapura untuk menyedot dan menghisap serta memperbaiki septic tank di area highland</p>
+                </div>
+            </div>
+        </section>
+        <section id="owner-info" class="hidden">
+            <hr><h2>~ Produk Sign ~ </h2><hr> <center>
+            <p>Selain produk kami dibagian bawah anda dapat mengcustom sendiri sign yang anda mau. Berikut adalah beberapa hasil pembuatan sign PT.TARIPA PUTRA MANDIRI:</p>
+			</center>
+			    <div class="photo-gallery">
+                <div class="photo-item">
+                    <img src="walah1.jpeg" alt="Foto 1">
+                    <p><b>Sign Objek Vital</b></p>
+                    <p><i>(Ukuran 90X90 CM)</i></p>
+                </div>
+                <div class="photo-item">
+                    <img src="walah2.jpeg" alt="Foto 2">
+                    <p><b>Sign Pinch Point</b></p>
+                    <p><i>(60X40 CM)</i></p>
+                </div>
+                <div class="photo-item">
+                    <img src="walah3.jpeg" alt="Foto 3">
+                    <p><b>Sign Tegangan Listrik</b></p>
+                    <p><i>(70X40 CM)</i></p>
+                </div>
+                <div class="photo-item">
+                    <img src="walah4.jpeg" alt="Foto 4">
+                    <p><b>Sign Evakuasi</b></p>
+                    <p><i>(90X40 CM)</i></p>
+                </div>
+							    <div class="photo-gallery">
+                <div class="photo-item">
+                    <img src="walah5.jpeg" alt="Foto 1">
+                    <p><b>Sign Penyebrangan</b></p>
+                    <p><i>(Ukuran 50X60 CM)</i></p>
+                </div>
+                <div class="photo-item">
+                    <img src="walah6.jpeg" alt="Foto 2">
+                    <p><b>Sign Medical Waste</b></p>
+                    <p><i>(30X10 CM)</i></p>
+                </div>
+                <div class="photo-item">
+                    <img src="walah7.jpeg" alt="Foto 3">
+                    <p><b>Sign Sabuk Pengaman</b></p>
+                    <p><i>(60X50 CM)</i></p>
+                </div>
+                <div class="photo-item">
+                    <img src="walah8.jpeg" alt="Foto 4">
+                    <p><b>Sign Police</b></p>
+                    <p><i>(70X50 CM)</i></p>
+                </div>
+				                <div class="photo-item">
+                    <img src="walah9.jpeg" alt="Foto 1">
+                    <p><b>Sign Stop</b></p>
+                    <p><i>(Ukuran 90X90 CM)</i></p>
+                </div>
+                <div class="photo-item">
+                    <img src="walah10.jpeg" alt="Foto 2">
+                    <p><b>Sign Pertigaan</b></p>
+                    <p><i>(60X60 CM)</i></p>
+                </div>
+                <div class="photo-item">
+                    <img src="walah11.jpeg" alt="Foto 3">
+                    <p><b>Sign VIP PARKING</b></p>
+                    <p><i>(60X20 CM)</i></p>
+                </div>
+                <div class="photo-item">
+                    <img src="walah12.jpeg" alt="Foto 4">
+                    <p><b>Sign Max speed 15KM</b></p>
+                    <p><i>(60X60 CM)</i></p>
+                </div>	
+				     <div class="photo-item">
+                    <img src="walah13.jpeg" alt="Foto 1">
+                    <p><b>Sticker Informasi</b></p>
+                    <p><i>(Ukuran 20X10 CM)</i></p>
+                </div>
+                <div class="photo-item">
+                    <img src="walah14.jpeg" alt="Foto 2">
+                    <p><b>Sticker Evakuasi</b></p>
+                    <p><i>(40X20 CM)</i></p>
+                </div>
+                <div class="photo-item">
+                    <img src="walah15.jpeg" alt="Foto 3">
+                    <p><b>Sign FTM safety</b></p>
+                    <p><i>(180X150 CM)</i></p>
+                </div>
+                <div class="photo-item">
+                    <img src="walah16.jpeg" alt="Foto 4">
+                    <p><b>Whiteboard FatalRisk</b></p>
+                    <p><i>(60X40 CM)</i></p>
+                </div>	
+            </div>			
+        </section>
+<section id="contact-us" class="hidden">
+    <hr><h2>~ Hubungi Kami ~ </h2><hr>
+    <p>Silakan hubungi kami untuk informasi lebih lanjut atau pertanyaan terkait layanan dan produk kami.</p>
+    <p>
+        <img src="gmail-logo.png" alt="Gmail Logo" class="logo-inline">
+        GMAIL: Admintairipa_facilities@tairipaputra.com
+    </p>
+    <p>
+        <img src="whatsapp-logo.png" alt="WhatsApp Logo" class="logo-inline">
+        NO WHATSAPP: 081247178029
+    </p>
+</section>
+
+        <section id="about-owner" class="hidden">
+			    <div class="container">
+        <h1>Sejarah PT. Tairipa Putra Mandiri</h1>
+
+        <h2>PT. Tairipa Putra Mandiri</h2>
+        <p><span class="highlight">Tahun Berdiri:</span> 2010</p>
+        <p><span class="highlight">Pendiri:</span> Yohanis Mamiri</p>
+        <p><span class="highlight">Lokasi:</span> Timika, Papua Tengah, Indonesia</p>
+		
+        <h2>Bidang Usaha</h2>
+        <p><span class="highlight">1. Pencucian Bis:</span> PT. Tairipa Putra Mandiri menyediakan layanan pencucian bis yang profesional dan efisien. Dengan peralatan modern dan tim yang terlatih, kami memastikan bahwa setiap kendaraan yang kami tangani akan bersih dan siap digunakan, baik untuk kebutuhan operasional sehari-hari maupun acara khusus.</p>
+        <p><span class="highlight">2. Penyedotan Septic Tank:</span> Layanan penyedotan dan pembersihan septic tank kami dirancang untuk menjaga kebersihan lingkungan dan kesehatan masyarakat. Kami menggunakan teknologi terbaru untuk memastikan proses yang cepat, aman, dan efektif, sehingga mencegah masalah lingkungan yang dapat timbul akibat septic tank yang penuh atau bocor.</p>
+        <p><span class="highlight">3. Sign Protection:</span> Kami ahli dalam pembuatan dan pemasangan tanda (sign) untuk berbagai keperluan, termasuk keamanan, informasi, dan petunjuk arah. Produk-produk kami dibuat dengan bahan berkualitas tinggi dan dirancang untuk tahan lama, baik di dalam maupun luar ruangan.</p>
+        <p><span class="highlight">4. Environmental Support Tenaga:</span> Kami menyediakan tenaga kerja yang terlatih untuk mendukung berbagai proyek lingkungan. Layanan kami mencakup pengelolaan limbah, rehabilitasi lahan, hingga konsultasi lingkungan. Dengan tenaga kerja yang kompeten dan berpengalaman, kami siap membantu klien dalam menjaga dan memperbaiki kondisi lingkungan.</p>
+
+        <h2>Pencapaian dan Penghargaan</h2>
+        <p>Pada tahun 2023, PT. Tairipa Putra Mandiri menerima penghargaan <span class="highlight">Safety Contractor</span> tanpa insiden di wilayah Highland Tembagapura. Penghargaan ini merupakan bukti nyata dari komitmen kami terhadap keselamatan kerja dan kepedulian kami terhadap kesejahteraan karyawan. Kami selalu memastikan bahwa setiap proyek dijalankan dengan standar keselamatan tertinggi untuk menghindari kecelakaan dan insiden yang merugikan.</p>
+
+        <h2>Kerjasama dengan PT. Freeport Indonesia</h2>
+        <p>Sejak didirikan, PT. Tairipa Putra Mandiri dibina langsung oleh PT. Freeport Indonesia, salah satu perusahaan tambang terbesar di dunia. Kerjasama ini telah memberikan kami banyak pengalaman berharga dan kesempatan untuk berkembang. Pada tahun 2022, PT. Tairipa Putra Mandiri berhasil menjadi perusahaan yang mandiri, di mana segala urusan pengambilan keputusan tidak lagi melibatkan PT. Freeport Indonesia. Meskipun demikian, PT. Freeport Indonesia masih menjadi salah satu klien utama kami, dan kami terus memberikan dukungan tenaga kerja serta layanan lainnya kepada mereka.</p>
+
+        <h2>Kontribusi kepada Masyarakat</h2>
+        <p>PT. Tairipa Putra Mandiri memiliki komitmen kuat untuk memberdayakan masyarakat lokal. Kami banyak mempekerjakan suku asli atau lokal, yang secara tidak langsung membantu meningkatkan ekonomi daerah dan memberikan manfaat nyata kepada masyarakat sekitar PT. Freeport Indonesia. Dengan menciptakan lapangan kerja dan memberikan pelatihan kepada penduduk lokal, kami tidak hanya berkontribusi terhadap ekonomi lokal, tetapi juga membantu dalam meningkatkan keterampilan dan pengetahuan masyarakat. Kami percaya bahwa dengan memberdayakan masyarakat lokal, kami dapat membantu menciptakan masa depan yang lebih baik bagi semua orang yang terlibat.</p>
+
+        <p>PT. Tairipa Putra Mandiri terus berupaya untuk menjadi mitra terpercaya dalam setiap proyek yang kami tangani. Dengan nilai-nilai integritas, profesionalisme, dan keberlanjutan, kami berkomitmen untuk selalu memberikan yang terbaik bagi klien, karyawan, dan masyarakat sekitar.</p>
+    </div>
+	</section> 
+        </center>
+    </main>
+    <footer>
+        <p>&copy; 2024 Tairipa Putra Mandiri. All rights reserved.</p>
+    </footer>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const companyInfoBtn = document.querySelector('a[href="#company-info"]');
+            const ownerInfoBtn = document.querySelector('a[href="#owner-info"]');
+            const contactUsBtn = document.querySelector('a[href="#contact-us"]');
+            const aboutOwnerBtn = document.querySelector('a[href="#about-owner"]');
+            const sections = document.querySelectorAll('section');
+
+            companyInfoBtn.addEventListener('click', function(event) {
+                event.preventDefault();
+                showSection('company-info');
+            });
+
+            ownerInfoBtn.addEventListener('click', function(event) {
+                event.preventDefault();
+                showSection('owner-info');
+            });
+
+            contactUsBtn.addEventListener('click', function(event) {
+                event.preventDefault();
+                showSection('contact-us');
+            });
+
+            aboutOwnerBtn.addEventListener('click', function(event) {
+                event.preventDefault();
+                showSection('about-owner');
+            });
+
+            function showSection(sectionId) {
+                sections.forEach(section => {
+                    if (section.id === sectionId) {
+                        section.classList.remove('hidden');
+                    } else {
+                        section.classList.add('hidden');
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+</html>
